@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: You've been deceived...
 ---
 
