@@ -1,10 +1,12 @@
 entries:
   - title: me
     entries:
-      - title: email
+      - title: "email"
         url: mailto:duongphan090703@gmail.com
-      - title: github
+      - title: "github"
         url: http://github.com/Duong0907/
+      - title: "linkedin"
+        url: https://www.linkedin.com/in/thanh-duong-phan-9855a8245/
       - title: about-me
         url: /about-me.html
 
