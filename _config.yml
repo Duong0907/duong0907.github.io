@@ -2,7 +2,7 @@ title: Duong's Blog
 email: duongphan090703@gmail.com
 description: Welcome to my blog, men!
 baseurl: ""
-url: "https://duong0907.github.io/blog"
+url: "https://duong0907.github.io"
 github_username:  Duong0907
 
 permalink: /:slug.html
