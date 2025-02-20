@@ -1,0 +1,36 @@
+<hr data-content="keep in touch" />
+
+<form
+    style="padding: 3px; text-align: center"
+    onsubmit="sendEmail(); return false;"
+>
+    <label for="tlemail">email me:</label>
+    <input
+        type="text"
+        style="width: 140px"
+        name="email"
+        id="tlemail"
+        placeholder="your email"
+    />
+    <input type="submit" value="subscribe" />
+    <br />
+    <small>
+        contact me for futher discussion
+    </small>
+</form>
+
+<script>
+    function sendEmail() {
+        var email = document.getElementById("tlemail").value;
+        var subject = "About Duong's Blog";
+        var body =
+            "Hi Duong!\n\n " +
+            email +
+            "\n\nThank you.";
+        window.location.href =
+            "mailto:duongphan090703@gmail.com?subject=" +
+            encodeURICompeonnt(subject) +
+            "&body=" +
+            encodeURIComponent(body);
+    }
+</script>
